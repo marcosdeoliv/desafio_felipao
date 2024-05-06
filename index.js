@@ -29,6 +29,17 @@ Ao final deve se exibir uma mensagem:
 console.log("oi");**/
 
 let nomeHeroi = "Maromba Boy";
-let XP =  10.000;
+let XP =  10000;
 let nivelHeroi = ["Ferro", "Bronze", "Prata", "Ouro", "Platina", "Ascendente", "Imortal", "Radiante"]
 
+let y = 0
+
+const nomeDoHeroi = "Nome do seu Jogador: ";
+const estaNoNivel = " está no nível: "
+const totalXP = "Total XP de: "
+
+if (XP < 1000){
+    console.log(nomeHeroi + estaNoNivel + estaNoNivel + nivelHeroi[y] + totalXP + y)
+} else if (XP >= 1001 && XP <= 2000){
+
+}
