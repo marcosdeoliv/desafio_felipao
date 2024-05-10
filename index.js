@@ -32,7 +32,7 @@ let nomeHeroi = "Maromba Boy";
 let XP =  10000;
 let nivelHeroi = ["Ferro", "Bronze", "Prata", "Ouro", "Platina", "Ascendente", "Imortal", "Radiante"]
 
-let y = 0
+let y = 8000
 
 const nomeDoHeroi = "Nome do seu Jogador: ";
 const estaNoNivel = " está no nível: "
@@ -40,6 +40,32 @@ const totalXP = "Total XP de: "
 
 if (XP < 1000){
     console.log(nomeHeroi + estaNoNivel + estaNoNivel + nivelHeroi[y] + totalXP + y)
-} else if (XP >= 1001 && XP <= 2000){
-
+} 
+else if (XP >= 1001 && XP <= 2000){
+    y+=1
+    console.log(nomeHeroi + estaNoNivel + estaNoNivel + nivelHeroi[y] + totalXP + y)
+}
+else if (XP >= 2001 && XP <= 6000){
+    y+=2
+    console.log(nomeHeroi + estaNoNivel + estaNoNivel + nivelHeroi[y] + totalXP + y)
+}
+else if (XP >= 6001 && XP <= 7000){
+    y+=3
+    console.log(nomeHeroi + estaNoNivel + estaNoNivel + nivelHeroi[y] + totalXP + y)
+}
+else if (XP >= 7001 && XP <= 8000){
+    y+=4
+    console.log(nomeHeroi + estaNoNivel + estaNoNivel + nivelHeroi[y] + totalXP + y)
+}
+else if (XP >= 8001 && XP <= 9000){
+    y+=5
+    console.log(nomeHeroi + estaNoNivel + estaNoNivel + nivelHeroi[y] + totalXP + y)
+}
+else if (XP >= 9001 && XP <= 10000){
+    y+=6
+    console.log(nomeHeroi + estaNoNivel + estaNoNivel + nivelHeroi[y] + totalXP + y)
+}
+else if (XP >= 10001){
+    y+=7
+    console.log(nomeHeroi + estaNoNivel + estaNoNivel + nivelHeroi[y] + totalXP + y)
 }
